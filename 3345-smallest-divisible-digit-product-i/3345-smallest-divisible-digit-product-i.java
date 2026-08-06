@@ -7,7 +7,7 @@ class Solution {
             pro=pro*(ans%10);
             ans=ans/10;
         }
-        if(pro%t==0) return n;
+        if(pro%t==0) break;
         n=n+1;
        }
        return n;
